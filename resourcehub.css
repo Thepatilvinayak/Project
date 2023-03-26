@@ -1,0 +1,275 @@
+/* Set global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Style the header */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content */
+  
+  main {
+    margin: 20px;
+    overflow: hidden; /* clear floats */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  h3 {
+    text-align: center; /* centers the text */
+  padding: 10px; /* adds padding to the top and bottom of the text */
+  margin: 0 auto; /* centers the text horizontally using auto margins */
+  width: 50%; /* sets the width of the element */
+  font-size: 32px;
+  }
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  li h3 {
+    margin-bottom: 10px;
+  }
+  
+  li p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #666;
+  }
+  
+/* style for featured courses section */
+section {
+  background-color: #f9f9f9; /* sets the background color */
+  padding: 40px 0; /* adds padding to the top and bottom of the section */
+  width: auto;
+}
+
+/* style for featured courses title */
+section h3 {
+  text-align: center; /* centers the text */
+  margin-bottom: 40px; /* adds spacing below the title */
+}
+
+/* style for unordered list */
+section ul {
+  list-style: none; /* removes default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+/* style for each list item */
+section li {
+  margin-bottom: 20px; /* add space between list items */
+}
+
+/* style for course title */
+section h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* style for course description */
+section p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+/* style for enroll link */
+section a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #3eb613;
+  transition: all 0.3s ease; /* adds transition effect when hover */
+}
+
+/* style for hover effect on enroll link */
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+  
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    padding: 30px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  footer p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .tlerh {
+    display: inline-block;
+    animation: tlerh-animation 1s ease-in-out infinite;
+    color: #333; /* default color */
+  }
+  
+ /* Define the keyframes for the TLERH animation */
+@keyframes tlerh-animation {
+    0% {
+      transform: scale(1) ;
+    }
+    25% {
+      
+      color: #f00; /* change color to red */
+    }
+    50% {
+     
+      color: #0f0; /* change color to green */
+    }
+    75% {
+      
+      color: #00f; /* change color to blue */
+    }
+    100% {
+     
+      color: #333; /* back to default color */
+    }
+  }
+  footer h2 {
+    color: white;
+  }
+  
+ /* Social icons */
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: green;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #0a56a7;
+}
+  .useful-links li {
+    margin-bottom: 5px;
+    font-size: medium;
+  }
+  
+  .useful-links a {
+    color: rgb(10, 167, 115);
+  }
+  
+  form input[type="email"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1e88e5;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #1565c0;
+  }
+  
+  #copyright {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+  }
+  
